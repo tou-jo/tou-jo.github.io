@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历</title>
+    <style>
+        body {
+            background-image: url(backgroundimg.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 100% auto;
+            width: 100%;
+            height: 1024px;
+            font-family: "Microsoft Yahei";
+        }
+        
+        a {
+            text-decoration: none;
+            color: #d9cdf8;
+            font-size: 20px;
+            font-weight: 800;
+        }
+        
+        .mp3 {
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 30px;
+            text-align: center;
+            -webkit-text-fill-color: #9676f0;
+            /*文字的填充色*/
+            -webkit-text-stroke: 1.2px #efacf5;
+        }
+        
+        .imgB {
+            text-align: center;
+            color: #9676f0;
+        }
+        
+        .show {
+            text-align: center;
+            font-size: 15;
+            color: rgb(253, 194, 253);
+        }
+        
+        h3 {
+            text-align: center;
+            -webkit-text-fill-color: #f0ecfa;
+            /*文字的填充色*/
+            -webkit-text-stroke: 0.7px #db86f0;
+        }
+        
+        .s2 {
+            text-align: center;
+            color: hsl(0, 0%, 100%);
+        }
+        
+        #button1 {
+            text-align: center;
+            -webkit-text-fill-color: #f0ecfa;
+            /*文字的填充色*/
+            -webkit-text-stroke: 0.7px #db86f0;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <br/>
+    <a href="Home.html" target="_self">返回主页</a>
+    <br/>
+    <div class=mp3>
+        <audio autoplay="autoplay" controls="controls" src="柒羊 - 专一的____boy.mp3">
+    </audio>
+        <br/>
+        <br/>
+        <br/>
+        <div class="imgA">
+            <img src="img10.jpg" width="15%">
+            <img src="img6.jpg" width="15%">
+            <img src="img7.jpg" width="15%">
+            <img src="img8.jpg" width="15%">
+        </div>
+    </div>
+    <h1>專一的FU BOY</h1>
+    <div class="imgB"><img src="imgA.png" width="20%" border="10"></div>
+    <br/>
+    <div class="show">
+        姓名：劉百瀟
+        <br/> 學校：CSU
+        <br/> 在校的學習年份：2020年
+        <br/> 電郵地址：2290209615@qq.com
+    </div>
+    <br/>
+    <br/>
+    <h3>輸入銀行卡號及密碼才可查看更多信息</h3>
+    <div class="s2">
+        <form action="#" method="POST" name="password">
+            銀行卡號
+            <input type="text" />
+            <br/> 銀行卡密碼
+            <input type="password" />
+            <br/>
+            <br/>
+            <p id="button1"></p>
+            <button type="button" onclick='document.getElementById("button1").innerHTML="其他信息不會告訴你，但是卡里的錢的確會取走!"'>點此提交
+            </button>
+            <br/>
+            <br/>
+            <br/>
+        </form>
+    </div>
+
+</body>
+
+</html>
